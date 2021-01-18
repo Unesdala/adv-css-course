@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "compile:sass-intro": "node-sass intro/sass/main.scss intro/css/style.css -w",
-    "compile:sass-challenge": "node-sass challenge/sass/main.scss challenge/css/style.css -w"
+    "compile:sass-challenge": "node-sass challenge/sass/main.scss challenge/css/style.css -w",
+    "compile:sass-challenge-solution": "node-sass Challenge_Solution/sass/main.scss Challenge_Solution/css/style.css -w"
   },
   "author": "Rhayven Ayers",
   "license": "MIT",
