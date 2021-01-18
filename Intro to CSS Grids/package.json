@@ -1,0 +1,14 @@
+{
+  "name": "intro-to-css-grids",
+  "version": "1.0.0",
+  "description": "An introduction to CSS grids",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Rhayven Ayers",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
