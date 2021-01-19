@@ -19,7 +19,7 @@
   "devDependencies": {
     "autoprefixer": "latest",
     "concat": "latest",
-    "devserver": "^0.2.5",
+    "live-server": "latest",
     "node-sass": "latest",
     "npm-run-all": "latest",
     "postcss-cli": "latest"
