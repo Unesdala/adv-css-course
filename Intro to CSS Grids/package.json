@@ -1,0 +1,19 @@
+{
+  "name": "intro-to-css-grids",
+  "version": "1.0.0",
+  "description": "An introduction to CSS grids",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass-intro": "node-sass intro/sass/main.scss intro/css/style.css -w",
+    "compile:sass-challenge": "node-sass challenge/sass/main.scss challenge/css/style.css -w",
+    "compile:sass-challenge-solution": "node-sass Challenge_Solution/sass/main.scss Challenge_Solution/css/style.css -w",
+    "compile:sass-example": "node-sass example/sass/main.scss example/css/style.css -w",
+    "compile:sass-vs": "node-sass Implicit-vs-Explicit/sass/main.scss Implicit-vs-Explicit/css/style.css -w",
+    "compile:sass-min-vs": "node-sass Min-vs-Max/sass/main.scss Min-vs-Max/css/style.css -w"
+  },
+  "author": "Rhayven Ayers",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
