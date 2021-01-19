@@ -11,9 +11,27 @@
   // grid-template-rows: repeat(2, min-content);
 
   // Using minmax function
-  width: 90%;
+  // width: 90%;
+  // grid-template-rows: repeat(2, minmax(150px, min-content));
+  // grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
+
+  // Using autofill and autofit
   grid-template-rows: repeat(2, minmax(150px, min-content));
-  grid-template-columns: minmax(200px, 1fr) repeat(3, 1fr);
+
+  // Creates as many tracks as can fit. IE: 10 100px when width: 1000px
+  // grid-template-columns: repeat(auto-fill, 100px);
+
+  // Collapses any empty tracks to a width of 0
+  // grid-template-columns: repeat(auto-fit, 100px);
+
+  // Fills the columns to fit across the entirety of the width
+  // If all the columns can't fit, it'll shrink the total columns based on width, and put them into another row.
+  // If grid-auto-rows isn't set, it can make the grid look wonky.
+  // Extremely adaptive
+  width: 90%;
+  grid-auto-rows: 150px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
 
 
   .item {
