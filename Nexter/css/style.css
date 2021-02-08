@@ -67,7 +67,7 @@ body {
   background-color: #c69963;
   color: #fff;
   border: none;
-  border-radius: 0;
+  border-radius: $border-radius-tertiary;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -104,7 +104,7 @@ body {
 
 .nav-btn {
   border: none;
-  border-radius: 0;
+  border-radius: $border-radius-tertiary;
   background-color: #fff;
   height: 2px;
   width: 4.5rem;
