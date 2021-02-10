@@ -17,7 +17,7 @@
   line-height: 1;
 
   &--light { color: $color-grey-light-1; }
-  &--dark { color: $color-grey-dark-1; }
+  &--dark { color: $color-grey-dark-1-1; }
 }
 
 .heading-3 {
@@ -32,14 +32,14 @@
   font-size: 1.9rem;
 
   &--light { color: $color-grey-light-1; }
-  &--dark { color: $color-grey-dark-1; }
+  &--dark { color: $color-grey-dark-1-1; }
 }
 
 .btn {
   background-color: $color-primary;
   color: #fff;
   border: none;
-  border-radius: 0;
+  border-radius: $border-radius-tertiary;
   font-family: $font-display;
   font-size: 1.5rem;
   text-transform: uppercase;

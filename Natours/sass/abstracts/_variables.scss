@@ -12,7 +12,10 @@ $color-tertiary-dark: #5643fa;
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 
-$color-grey-dark: #777;
+$color-grey-dark-1: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
 $color-white: #fff;
 $color-black: #000;
 $color-dark-green: #012e1e99;
@@ -29,3 +32,8 @@ $gutter-horizontal: 6rem;
 $box-shadow-1: 0 1.5rem 4rem rgba($color-dark-green, .15);
 $box-shadow-2: 0 1rem 2rem  rgba($color-dark-green, .6);
 $box-shadow-3:  0 .5rem 1rem rgba($color-dark-green, .6);
+
+// BORDER
+$border-radius-primary: .3rem;
+$border-radius-secondary: .2rem;
+$border-radius-tertiary: 0;
